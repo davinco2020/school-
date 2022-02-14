@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="university.css">
+    <link rel="stylesheet" href="./fontdesktop/css/all.min.css" />
+</head>
+<body>
+    <section class="head">
+<nav>
+    <a href="index.html"><img src="logo.png" /></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+            
+    </div>
+    <i class="fas fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+    <h1>World's biggest University</h1>
+    <p>Making website is now one of teh easiest thing in the world. You just need to learn
+        HTML, CSS, <br>Javascript and you are good to go.
+    </p><br><br>
+    <a href="" class="hero-btn">Visit us to know more</a>
+</div>
+    </section>
+
+    <!-- Course -->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p class="row-text"> Bellow are list of courses offered in the university </p>
+        <p class="row-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde inventore est fuga sunt accusamus libero repudiandae saepe ea magni perspiciatis expedita
+             distinctio voluptatum explicabo, sapiente nisi eligendi dolores quia.</p>
+  <div class="row">
+      <div class="course-col">
+          <h3>Intermediate</h3>
+          <p class="row-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates reiciendis aspernatur, ab tempora possimus expedita, veniam eius debitis harum nihil culpa corporis! Esse, ratione veritatis tempora molestias eligendi odio eaque?
+          </p>
+      </div>
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p class="row-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates reiciendis aspernatur, ab tempora possimus expedita, veniam eius debitis harum nihil culpa corporis! Esse, ratione veritatis tempora molestias eligendi odio eaque?
+        </p>
+    </div>
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p class="row-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates reiciendis aspernatur, ab tempora possimus expedita, veniam eius debitis harum nihil culpa corporis! Esse, ratione veritatis tempora molestias eligendi odio eaque?
+        </p>
+    </div>
+      
+       
+  </div>
+            </section>
+            <!-- Campus Section -->
+
+            <section class="campus">
+<h1>GLOBAL CAMPUS</h1>
+<p class="row-text"> Our global campus covers many area</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="./sch.png" alt="">
+        <div class="layer">
+            <h3>London</h3>
+        </div>
+
+    </div>
+    <div class="campus-col">
+        <img src="./sch.png" alt="">
+        <div class="layer">
+            <h3>New York</h3>
+        </div>
+
+    </div>
+    <div class="campus-col">
+        <img src="./sch.png" alt="">
+        <div class="layer">
+            <h3>Washington</h3>
+        </div>
+
+    </div>
+    
+</div>        
+<h2> Please drop your reviews pls</h2>
+<p>WE will be glad to hear from you</p>
+</section>
+    //Javascript menu
+<script>
+    var navLinks =document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
